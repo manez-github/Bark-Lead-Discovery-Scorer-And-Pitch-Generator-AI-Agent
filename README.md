@@ -147,20 +147,7 @@ Init → Auth Check → [Login] → Scraper → Analyst → Pitch Generator → 
 | 6 | **Pitch Generator** | Creates a personalized 3-paragraph pitch for leads scoring `> 0.8` |
 | 7 | **Close** | Safely closes the browser context and stops Playwright |
 
-```
-init
-  ↓
-auth_check ──── not logged in ──→ login
-  ↓ logged in                         ↓
-  ↓ ←──────────────────────────────────
-scraper
-  ↓
-analyst ──── no qualified leads ──→ close
-  ↓ qualified leads found
-pitcher
-  ↓
-close
-```
+<img width="575" height="821" alt="Bark AI Agent drawio" src="https://github.com/user-attachments/assets/edca67fb-8add-42b3-8666-5fa2aeeb08d6" />
 
 - `auth_check` routes to `login` or directly to `scraper` depending on session state
 - `analyst` routes to `pitcher` if qualified leads exist, or `close` if none
