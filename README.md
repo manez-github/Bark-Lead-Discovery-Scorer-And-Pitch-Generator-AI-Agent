@@ -10,6 +10,9 @@ An autonomous AI agent that logs into **Bark.com** via Google OAuth, scrapes buy
 
 ---
 
+## 🎬 Demo Video
+
+---
 ## ✨ What It Does
 
 | Step | Action |
