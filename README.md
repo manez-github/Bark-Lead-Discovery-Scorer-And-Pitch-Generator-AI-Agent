@@ -12,6 +12,7 @@ An autonomous AI agent that logs into **Bark.com** via Google OAuth, scrapes buy
 
 ## 🎬 Demo Video
 
+https://github.com/manez-github/Bark-Lead-Discovery-Scorer-And-Pitch-Generator-AI-Agent/raw/refs/heads/main/demo_video/bark-ai-agent-demo-video.mp4
 ---
 ## ✨ What It Does
 
